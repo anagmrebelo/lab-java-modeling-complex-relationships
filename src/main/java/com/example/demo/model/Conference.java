@@ -12,5 +12,5 @@ import java.util.List;
 public class Conference extends Event{
     @OneToMany
     @JoinColumn(name = "event_id")
-    private List<Guest> speakers;
+    private List<Speaker> speakers;
 }
